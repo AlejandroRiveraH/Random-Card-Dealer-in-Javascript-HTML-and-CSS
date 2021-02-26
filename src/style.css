@@ -1,1 +1,27 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: #046d10;
+  font-size: 65px;
+  /* color: red;*/
+}
+.paloarriba {
+  display: flex;
+}
+.paloabajo {
+  flex-grow: 2;
+  text-align: right;
+  transform: rotate(180deg) translateX(-150px);
+}
+
+.carta {
+  background-color: #ffffff;
+  display: inline-block;
+  width: 200px;
+  height: 300px;
+  text-align: center;
+  margin-right: 30px;
+  position: relative;
+  border: 1px solid black;
+  border-radius: 5px;
+}
